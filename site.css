@@ -5,11 +5,33 @@ body{
 h1, h2{
   font-family: "Open Sans", sans-serif;
 }
-h1{
+main h1{
   text-align: center;
   color: #FAFFFA;
   background-color: #851944;
 }
 p{
   text-align: justify;
+}
+blockquote{
+  background-color: #D9E5E3;
+}
+aside{
+  background-color: #3C1D3D;
+  color: #F2FFFC;
+}
+nav a{
+  color: inherit;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+footer{
+  background-color: #000;
+  color: #F2FFFC;
+}
+main a{
+  color: #851944;
+}
+article footer{
+  background-color: inherit;
+  color: inherit;
 }
